@@ -1,6 +1,6 @@
 <?php
 $get_alt_text = RDS_ALT_DATA;
-$financing_home_svg_alt = "Wells Fargo financing badge indicating availability of payment plans";
+$financing_home_svg_alt = "";
 if (is_array($get_alt_text)) {
     foreach ($get_alt_text as $value) {
         if (in_array("financing-a-badge.webp", $value) || in_array("financing-a-badge.svg", $value)) {
